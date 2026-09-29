@@ -1,0 +1,17 @@
+---
+layout: "default"
+title: "Printable China Number-Day Calendar 2027 | 077088"
+description: "Printable 2027 Chinese festival and shopping-day calendar with campaign checklist."
+canonical: "https://077088.com/calendar-print.html"
+root: ""
+ogtype: "website"
+noindex: true
+---
+{% raw %}
+<section><div class="wrap"><div class="no-print" style="margin-bottom:16px"><button class="btn btn-primary" onclick="print()">🖨 Print / save as PDF</button> <button class="btn btn-ghost" id="pr-ics">📅 Download .ics</button></div>
+<h1>China Number-Day Calendar 2027 <span class="cn" style="color:var(--red)">2027 营销日历</span></h1><p class="muted">From 077088.com — lunar dates converted. Caution periods flagged.</p>
+<div class="table-wrap"><table id="print-cal"></table></div>
+<h2 style="margin-top:28px">Campaign checklist (per festival)</h2><ol><li>T-90: strategy, hero products, lucky price points (no 4s).</li><li>T-60: creative & influencer booking.</li><li>T-45: platform registration.</li><li>T-30: content seeding & list growth.</li><li>T-14: teasers & pre-sale.</li><li>T-7: warm-up and live-streams.</li><li>T-0: peak day.</li><li>T+3: fulfilment, reviews, retargeting.</li></ol>
+<p class="small muted">© 077088.com — free to print for personal and internal business use.</p></div></section>
+<script>document.addEventListener("DOMContentLoaded",function(){var rows=U.occurrences(true).filter(function(o){return o.y===2027});document.getElementById("print-cal").innerHTML="<thead><tr><th>Date</th><th>Day</th><th>Festival</th><th>Chinese</th><th>Type</th></tr></thead><tbody>"+rows.map(function(o){return "<tr><td><b>"+U.fmt(o.d,{month:"short",day:"numeric"})+(o.f.ends&&o.f.ends[o.y]?" – "+U.fmt(o.f.ends[o.y],{month:"short",day:"numeric"}):"")+"</b></td><td>"+U.parse(o.d).toLocaleDateString("en-US",{weekday:"short"})+"</td><td>"+U.esc(o.f.name)+"</td><td class=cn>"+o.f.cn+"</td><td>"+o.f.type+"</td></tr>"}).join("")+"</tbody>";document.getElementById("pr-ics").onclick=function(){U.ics(rows.map(function(o){return{date:o.d,title:o.f.name+" ("+o.f.cn+")",desc:o.f.blurb}}),"077088-2027-calendar.ics")}});</script>
+{% endraw %}
