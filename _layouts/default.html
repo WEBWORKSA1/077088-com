@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+{{ page.extra_head }}
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+<link rel="canonical" href="{{ page.canonical }}">
+<meta property="og:type" content="{{ page.ogtype }}"><meta property="og:title" content="{{ page.title | escape }}"><meta property="og:description" content="{{ page.description | escape }}"><meta property="og:url" content="{{ page.canonical }}"><meta property="og:site_name" content="077088">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#D7263D">
+<link rel="icon" href="{{ page.root }}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="{{ page.root }}manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ page.root }}assets/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-root="{{ page.root }}">
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar" role="note"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership →</a></div>
+<header class="site-header"><div class="wrap nav">
+  <a class="logo" href="{{ page.root }}index.html" aria-label="077088 home"><span class="logo-mark">七八</span><span>077088<small>Number-Day Commerce</small></span></a>
+  <button class="icon-btn burger" aria-label="Menu" aria-expanded="false">☰</button>
+  <ul class="menu">
+    <li><a href="{{ page.root }}calendar.html">Calendar</a></li>
+    <li><button class="m" aria-haspopup="true">Festivals ▾</button><ul class="dd"><li><a href="{{ page.root }}festivals/qixi.html">Qixi · 七夕 (7·7)</a></li><li><a href="{{ page.root }}festivals/88-festival.html">8·8 Father&#x27;s Day &amp; Sales</a></li><li><a href="{{ page.root }}festivals/chinese-new-year.html">Chinese New Year</a></li><li><a href="{{ page.root }}festivals/520.html">520 Love Day</a></li><li><a href="{{ page.root }}festivals/618.html">618 Shopping Festival</a></li><li><a href="{{ page.root }}festivals/singles-day.html">11.11 Singles&#x27; Day</a></li><li><a href="{{ page.root }}festivals/mid-autumn.html">Mid-Autumn Festival</a></li><li><a href="{{ page.root }}festivals/ghost-month.html">Ghost Month (caution)</a></li><li><a href="{{ page.root }}festivals/index.html"><b>All festivals →</b></a></li></ul></li>
+    <li><button class="m" aria-haspopup="true">Tools ▾</button><ul class="dd"><li><a href="{{ page.root }}tools/lucky-price.html">💹 Lucky Price Optimizer</a></li><li><a href="{{ page.root }}tools/number-checker.html">🔢 Number Luck Checker</a></li><li><a href="{{ page.root }}tools/number-converter.html">🈷️ Chinese Number Converter</a></li><li><a href="{{ page.root }}tools/hongbao.html">🧧 Red Envelope Calculator</a></li><li><a href="{{ page.root }}tools/launch-date.html">📆 Launch Date Checker</a></li><li><a href="{{ page.root }}tools/campaign-planner.html">🗺️ Festival Campaign Planner</a></li><li><a href="{{ page.root }}tools/zodiac.html">🐉 Zodiac Finder &amp; Match</a></li><li><a href="{{ page.root }}tools/gift-checker.html">🎁 Gift Taboo Checker</a></li><li><a href="{{ page.root }}tools/index.html"><b>All tools →</b></a></li></ul></li>
+    <li><button class="m" aria-haspopup="true">Guides ▾</button><ul class="dd"><li><a href="{{ page.root }}guides/what-077088-means.html">What does 077088 mean? The number decoded</a></li><li><a href="{{ page.root }}guides/china-number-day-economy.html">The Number-Day Economy</a></li><li><a href="{{ page.root }}guides/lucky-pricing-guide.html">Lucky Pricing</a></li><li><a href="{{ page.root }}guides/qixi-marketing-playbook.html">Qixi Marketing Playbook for brands</a></li><li><a href="{{ page.root }}guides/hongbao-etiquette.html">Red Envelope (Hongbao) Etiquette</a></li><li><a href="{{ page.root }}guides/chinese-gift-taboos.html">Chinese Gift Taboos</a></li><li><a href="{{ page.root }}guides/chinese-number-slang.html">Chinese Number Slang for Marketers</a></li><li><a href="{{ page.root }}guides/index.html"><b>All guides →</b></a></li></ul></li>
+    <li><a href="{{ page.root }}numbers.html">Numbers</a></li>
+    <li><a href="{{ page.root }}videos.html">Videos</a></li>
+    <li><button class="m" aria-haspopup="true">More ▾</button><ul class="dd">
+      <li><a href="{{ page.root }}advertise.html">📣 Advertise & Sponsor</a></li><li><a href="{{ page.root }}support.html">❤️ Support us</a></li>
+      <li><a href="{{ page.root }}contests.html">🏆 Contests & Prizes</a></li><li><a href="{{ page.root }}careers.html">🧑‍💻 Careers & Talent</a></li>
+      <li><a href="{{ page.root }}about.html">About</a></li><li><a href="{{ page.root }}contact.html">Contact</a></li></ul></li>
+    <li class="nav-cta"><a class="btn btn-primary btn-sm" href="{{ page.root }}services.html#brief" style="color:#fff">Free Campaign Plan</a></li>
+    <li><button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode">◐</button></li>
+  </ul>
+</div></header>
+<main id="main">
+{{ content }}
+</main>
+{% if page.lead %}<section class="section-tight no-print"><div class="wrap"><div class="lead-box reveal">
+  <div><span class="eyebrow" style="color:var(--gold-2)">Brand Growth Desk</span>
+  <h2>Selling to Chinese-speaking customers? Get a free number-day campaign plan.</h2>
+  <ul><li>Which festival to own (7·7, 8·8, 11.11 …) for your category</li><li>Lucky price points and a 4-free SKU check</li><li>Channel, influencer and budget recommendations</li></ul>
+  <p class="small">Free, no obligation. Reply within 1 business day.</p></div>
+  <form class="card" data-form="Quick campaign-plan lead" data-ok="Thank you! Your free plan request is in — expect a reply within 1 business day.">
+    <div class="row"><div class="field"><label for="ql-name">Name</label><input id="ql-name" name="name" required autocomplete="name" placeholder="Your name"></div>
+    <div class="field"><label for="ql-email">Work email</label><input id="ql-email" type="email" name="email" required autocomplete="email" placeholder="you@company.com"></div></div>
+    <div class="row"><div class="field"><label for="ql-site">Website / store</label><input id="ql-site" name="website" placeholder="https://"></div>
+    <div class="field"><label for="ql-fest">Target moment</label><select id="ql-fest" name="festival"><option>Not sure — advise me</option><option>Chinese New Year</option><option>520</option><option>618</option><option>Qixi (7·7)</option><option>8·8</option><option>Mid-Autumn</option><option>11.11</option><option>12.12</option></select></div></div>
+    <button class="btn btn-gold btn-block" type="submit">Get my free plan →</button>
+  </form></div></div></section>{% endif %}
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+  <div><a class="logo" href="{{ page.root }}index.html" style="color:#fff"><span class="logo-mark">七八</span><span>077088<small style="color:#9A95A6">Number-Day Commerce</small></span></a>
+  <p class="small" style="margin-top:12px">Festival dates, lucky-number tools and campaign know-how for everyone who sells, gifts or celebrates across the Chinese-speaking world — from 7·7 to 8·8 to 11.11.</p>
+  <form class="news-inline" data-form="Newsletter — number-day alerts" data-ok="You're on the list — alerts arrive before every major number-day."><input type="email" name="email" required placeholder="Email for festival alerts" aria-label="Email"><button class="btn btn-gold btn-sm" type="submit">Join</button></form>
+  <div class="share" style="margin-top:14px"><a data-social="x" hidden>X</a> <a data-social="instagram" hidden>Instagram</a> <a data-social="tiktok" hidden>TikTok</a> <a data-social="linkedin" hidden>LinkedIn</a> <a data-social="facebook" hidden>Facebook</a> <a data-social="weibo" hidden>Weibo</a> <a data-social="xiaohongshu" hidden>Xiaohongshu</a> <a data-yt-channel hidden target="_blank" rel="noopener">▶ YouTube</a></div></div>
+  <div><h4>Explore</h4><ul><li><a href="{{ page.root }}calendar.html">Festival calendar</a></li><li><a href="{{ page.root }}festivals/index.html">All festivals</a></li><li><a href="{{ page.root }}numbers.html">Number meanings</a></li><li><a href="{{ page.root }}guides/index.html">Guides</a></li><li><a href="{{ page.root }}videos.html">Videos</a></li></ul></div>
+  <div><h4>Tools</h4><ul><li><a href="{{ page.root }}tools/lucky-price.html">Lucky Price Optimizer</a></li><li><a href="{{ page.root }}tools/number-checker.html">Number Luck Checker</a></li><li><a href="{{ page.root }}tools/number-converter.html">Chinese Number Converter</a></li><li><a href="{{ page.root }}tools/hongbao.html">Red Envelope Calculator</a></li><li><a href="{{ page.root }}tools/launch-date.html">Launch Date Checker</a></li><li><a href="{{ page.root }}tools/campaign-planner.html">Festival Campaign Planner</a></li><li><a href="{{ page.root }}tools/index.html">All tools →</a></li></ul></div>
+  <div><h4>For brands</h4><ul><li><a href="{{ page.root }}services.html">Brand Growth Desk</a></li><li><a href="{{ page.root }}advertise.html">Advertise & sponsor</a></li><li><a href="{{ page.root }}services.html#partners">Become a partner</a></li><li><a href="{{ page.root }}contests.html">Contests & prizes</a></li><li><a href="https://web.works/contact" target="_blank" rel="noopener">Buy / partner on this domain</a></li></ul></div>
+  <div><h4>077088</h4><ul><li><a href="{{ page.root }}about.html">About</a></li><li><a href="{{ page.root }}support.html">Support us</a></li><li><a href="{{ page.root }}careers.html">Careers</a></li><li><a href="{{ page.root }}contact.html">Contact</a></li><li><a href="{{ page.root }}legal.html">Trademark & copyright</a></li><li><a href="{{ page.root }}privacy.html">Privacy</a></li><li><a href="{{ page.root }}terms.html">Terms</a></li></ul></div>
+</div>
+<div class="foot-bottom"><span>© <span data-year>2026</span> 077088.com — original content, all rights reserved. “077088” is used as a number; no affiliation with any company, brand or code using the same digits. <a href="{{ page.root }}legal.html" style="text-decoration:underline">Disclosure</a>.</span><span>Cultural information for education & entertainment — not financial, legal or spiritual advice.</span></div>
+</div></footer>
+<div class="consent" role="dialog" aria-label="Cookie notice"><b>Cookies & ads</b><p class="small" style="margin:6px 0 0">We use essential storage and, when enabled, Google AdSense/Analytics cookies to fund free tools. See our <a href="{{ page.root }}privacy.html">Privacy Policy</a>.</p><div class="btns"><button class="btn btn-primary btn-sm" data-consent="all">Accept</button><button class="btn btn-ghost btn-sm" data-consent="essential">Essential only</button></div></div>
+<div class="mobile-cta no-print"><a class="btn btn-primary" href="{{ page.root }}services.html#brief">Free campaign plan</a><a class="btn btn-ghost" href="{{ page.root }}tools/index.html">Tools</a></div>
+<div class="modal" id="lead-modal" role="dialog" aria-modal="true" aria-labelledby="lm-title"><div class="modal-box">
+  <button class="icon-btn modal-close" data-close aria-label="Close">✕</button>
+  <span class="eyebrow">Free download</span><h2 id="lm-title">The 2027 China Number-Day Calendar</h2>
+  <p class="muted">Every festival and mega-sale from Chinese New Year to 12.12 — lunar dates converted, Ghost Month flagged, plus a campaign checklist. Printable + calendar file.</p>
+  <form data-form="Lead magnet — 2027 calendar" data-reveal="#lm-download" data-ok="Done! Your calendar is ready below.">
+    <div class="field"><label for="lm-email">Email</label><input id="lm-email" type="email" name="email" required placeholder="you@company.com"></div>
+    <div class="field"><label for="lm-role">I am a…</label><select id="lm-role" name="role"><option>Brand / seller</option><option>Agency / marketer</option><option>Creator / influencer</option><option>Gift-giver / just curious</option></select></div>
+    <label class="check"><input type="checkbox" name="alerts" value="yes" checked> Send me a heads-up before each number-day</label>
+    <button class="btn btn-primary btn-block" type="submit" style="margin-top:12px">Send me the calendar</button>
+  </form>
+  <p id="lm-download" hidden style="margin-top:12px"><a class="btn btn-gold btn-block" href="{{ page.root }}calendar-print.html">⬇ Open the printable calendar</a></p>
+</div></div>
+<script src="{{ page.root }}assets/js/config.js"></script>
+<script src="{{ page.root }}assets/js/data.js"></script>
+<script src="{{ page.root }}assets/js/app.js"></script>
+<script src="{{ page.root }}assets/js/tools.js"></script>
+</body>
+</html>
